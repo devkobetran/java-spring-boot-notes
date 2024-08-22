@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/java-spring-boot-notes/__docusaurus/debug',
-    component: ComponentCreator('/java-spring-boot-notes/__docusaurus/debug', 'c78'),
-    exact: true
-  },
-  {
-    path: '/java-spring-boot-notes/__docusaurus/debug/config',
-    component: ComponentCreator('/java-spring-boot-notes/__docusaurus/debug/config', '9f7'),
-    exact: true
-  },
-  {
-    path: '/java-spring-boot-notes/__docusaurus/debug/content',
-    component: ComponentCreator('/java-spring-boot-notes/__docusaurus/debug/content', '634'),
-    exact: true
-  },
-  {
-    path: '/java-spring-boot-notes/__docusaurus/debug/globalData',
-    component: ComponentCreator('/java-spring-boot-notes/__docusaurus/debug/globalData', 'de2'),
-    exact: true
-  },
-  {
-    path: '/java-spring-boot-notes/__docusaurus/debug/metadata',
-    component: ComponentCreator('/java-spring-boot-notes/__docusaurus/debug/metadata', 'bd9'),
-    exact: true
-  },
-  {
-    path: '/java-spring-boot-notes/__docusaurus/debug/registry',
-    component: ComponentCreator('/java-spring-boot-notes/__docusaurus/debug/registry', '8ce'),
-    exact: true
-  },
-  {
-    path: '/java-spring-boot-notes/__docusaurus/debug/routes',
-    component: ComponentCreator('/java-spring-boot-notes/__docusaurus/debug/routes', '7ea'),
-    exact: true
-  },
-  {
     path: '/java-spring-boot-notes/blog',
     component: ComponentCreator('/java-spring-boot-notes/blog', 'b48'),
     exact: true

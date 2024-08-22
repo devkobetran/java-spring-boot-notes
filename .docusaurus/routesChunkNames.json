@@ -1,324 +1,281 @@
 {
-  "/java-spring-boot-notes/__docusaurus/debug-c78": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---java-spring-boot-notes-docusaurus-debugb-38-aa8"
-    }
-  },
-  "/java-spring-boot-notes/__docusaurus/debug/config-9f7": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---java-spring-boot-notes-docusaurus-debugb-38-aa8"
-    }
-  },
-  "/java-spring-boot-notes/__docusaurus/debug/content-634": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---java-spring-boot-notes-docusaurus-debugb-38-aa8"
-    },
-    "__props": "__props---java-spring-boot-notes-docusaurus-debug-content-532-de7"
-  },
-  "/java-spring-boot-notes/__docusaurus/debug/globalData-de2": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---java-spring-boot-notes-docusaurus-debugb-38-aa8"
-    }
-  },
-  "/java-spring-boot-notes/__docusaurus/debug/metadata-bd9": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---java-spring-boot-notes-docusaurus-debugb-38-aa8"
-    }
-  },
-  "/java-spring-boot-notes/__docusaurus/debug/registry-8ce": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---java-spring-boot-notes-docusaurus-debugb-38-aa8"
-    }
-  },
-  "/java-spring-boot-notes/__docusaurus/debug/routes-7ea": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---java-spring-boot-notes-docusaurus-debugb-38-aa8"
-    }
-  },
   "/java-spring-boot-notes/blog-b48": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "plugin---java-spring-boot-notes-blog-369-da9"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---java-spring-boot-notes-blog-814-bf0",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---java-spring-boot-notes-blog-766-65c"
+        "content": "7661071f"
       },
       {
-        "content": "content---java-spring-boot-notes-blogf-4-f-9f9"
+        "content": "f4f34a3a"
       },
       {
-        "content": "content---java-spring-boot-notes-blog-871-fda"
+        "content": "8717b14a"
       },
       {
-        "content": "content---java-spring-boot-notes-blog-925-1dd"
+        "content": "925b3f96"
       }
     ],
-    "__props": "__props---java-spring-boot-notes-blog-4-e-0-8a1"
+    "__props": "4e0dd503"
   },
   "/java-spring-boot-notes/blog/archive-b0c": {
-    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__comp": "9e4087bc",
     "__context": {
-      "plugin": "plugin---java-spring-boot-notes-blog-369-da9"
+      "plugin": "36994c47"
     },
-    "__props": "__props---java-spring-boot-notes-blog-archivec-24-850"
+    "__props": "c2421f6d"
   },
   "/java-spring-boot-notes/blog/authors-db8": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+    "__comp": "621db11d",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---java-spring-boot-notes-blog-authorsace-266"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---java-spring-boot-notes-blog-369-da9"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---java-spring-boot-notes-blog-814-bf0",
-    "__props": "__props---java-spring-boot-notes-blog-authorsfed-138"
+    "sidebar": "814f3328",
+    "__props": "fed17217"
   },
   "/java-spring-boot-notes/blog/authors/all-sebastien-lorber-articles-70b": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__comp": "33fc5bb8",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---java-spring-boot-notes-blog-authorsace-266"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---java-spring-boot-notes-blog-369-da9"
+      "plugin": "36994c47"
     },
     "items": [
       {
-        "content": "content---java-spring-boot-notes-blog-766-65c"
+        "content": "7661071f"
       },
       {
-        "content": "content---java-spring-boot-notes-blogf-4-f-9f9"
+        "content": "f4f34a3a"
       },
       {
-        "content": "content---java-spring-boot-notes-blog-925-1dd"
+        "content": "925b3f96"
       }
     ],
-    "sidebar": "sidebar---java-spring-boot-notes-blog-814-bf0",
-    "__props": "__props---java-spring-boot-notes-blog-authors-all-sebastien-lorber-articles-7-dc-ce5"
+    "sidebar": "814f3328",
+    "__props": "7dc5b0df"
   },
   "/java-spring-boot-notes/blog/authors/yangshun-cdc": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__comp": "33fc5bb8",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---java-spring-boot-notes-blog-authorsace-266"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---java-spring-boot-notes-blog-369-da9"
+      "plugin": "36994c47"
     },
     "items": [
       {
-        "content": "content---java-spring-boot-notes-blog-766-65c"
+        "content": "7661071f"
       },
       {
-        "content": "content---java-spring-boot-notes-blog-871-fda"
+        "content": "8717b14a"
       },
       {
-        "content": "content---java-spring-boot-notes-blog-925-1dd"
+        "content": "925b3f96"
       }
     ],
-    "sidebar": "sidebar---java-spring-boot-notes-blog-814-bf0",
-    "__props": "__props---java-spring-boot-notes-blog-authors-yangshun-3-c-8-b7a"
+    "sidebar": "814f3328",
+    "__props": "3c8ffbb0"
   },
   "/java-spring-boot-notes/blog/first-blog-post-d83": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---java-spring-boot-notes-blog-authorsace-266"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---java-spring-boot-notes-blog-369-da9"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---java-spring-boot-notes-blog-814-bf0",
-    "content": "content---java-spring-boot-notes-blog-first-blog-poste-27-808"
+    "sidebar": "814f3328",
+    "content": "e273c56f"
   },
   "/java-spring-boot-notes/blog/long-blog-post-efb": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---java-spring-boot-notes-blog-authorsace-266"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---java-spring-boot-notes-blog-369-da9"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---java-spring-boot-notes-blog-814-bf0",
-    "content": "content---java-spring-boot-notes-blog-long-blog-post-736-d4b"
+    "sidebar": "814f3328",
+    "content": "73664a40"
   },
   "/java-spring-boot-notes/blog/mdx-blog-post-1fc": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---java-spring-boot-notes-blog-authorsace-266"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---java-spring-boot-notes-blog-369-da9"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---java-spring-boot-notes-blog-814-bf0",
-    "content": "content---java-spring-boot-notes-blog-mdx-blog-post-593-cd5"
+    "sidebar": "814f3328",
+    "content": "59362658"
   },
   "/java-spring-boot-notes/blog/tags-923": {
-    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__comp": "01a85c17",
     "__context": {
-      "plugin": "plugin---java-spring-boot-notes-blog-369-da9"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---java-spring-boot-notes-blog-814-bf0",
-    "__props": "__props---java-spring-boot-notes-blog-tagscee-fb6"
+    "sidebar": "814f3328",
+    "__props": "cee5abbf"
   },
   "/java-spring-boot-notes/blog/tags/docusaurus-613": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---java-spring-boot-notes-blog-369-da9"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---java-spring-boot-notes-blog-814-bf0",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---java-spring-boot-notes-blog-766-65c"
+        "content": "7661071f"
       },
       {
-        "content": "content---java-spring-boot-notes-blogf-4-f-9f9"
+        "content": "f4f34a3a"
       },
       {
-        "content": "content---java-spring-boot-notes-blog-871-fda"
+        "content": "8717b14a"
       },
       {
-        "content": "content---java-spring-boot-notes-blog-925-1dd"
+        "content": "925b3f96"
       }
     ],
-    "__props": "__props---java-spring-boot-notes-blog-tags-docusaurusf-72-97b"
+    "__props": "f7288e54"
   },
   "/java-spring-boot-notes/blog/tags/facebook-aec": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---java-spring-boot-notes-blog-369-da9"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---java-spring-boot-notes-blog-814-bf0",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---java-spring-boot-notes-blog-766-65c"
+        "content": "7661071f"
       }
     ],
-    "__props": "__props---java-spring-boot-notes-blog-tags-facebook-13-d-153"
+    "__props": "13d2d3c2"
   },
   "/java-spring-boot-notes/blog/tags/hello-468": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---java-spring-boot-notes-blog-369-da9"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---java-spring-boot-notes-blog-814-bf0",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---java-spring-boot-notes-blog-766-65c"
+        "content": "7661071f"
       },
       {
-        "content": "content---java-spring-boot-notes-blog-871-fda"
+        "content": "8717b14a"
       }
     ],
-    "__props": "__props---java-spring-boot-notes-blog-tags-hello-902-734"
+    "__props": "9020ef6d"
   },
   "/java-spring-boot-notes/blog/tags/hola-e57": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---java-spring-boot-notes-blog-369-da9"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---java-spring-boot-notes-blog-814-bf0",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---java-spring-boot-notes-blog-925-1dd"
+        "content": "925b3f96"
       }
     ],
-    "__props": "__props---java-spring-boot-notes-blog-tags-holab-14-210"
+    "__props": "b148413b"
   },
   "/java-spring-boot-notes/blog/welcome-aa9": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---java-spring-boot-notes-blog-authorsace-266"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---java-spring-boot-notes-blog-369-da9"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---java-spring-boot-notes-blog-814-bf0",
-    "content": "content---java-spring-boot-notes-blog-welcomed-9-f-4e1"
+    "sidebar": "814f3328",
+    "content": "d9f32620"
   },
   "/java-spring-boot-notes/markdown-page-ea1": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---java-spring-boot-notes-markdown-pagea-74-ed3"
+      "plugin": "a7456010"
     },
-    "content": "content---java-spring-boot-notes-markdown-page-393-775"
+    "content": "393be207"
   },
   "/java-spring-boot-notes/docs-df7": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---java-spring-boot-notes-docsaba-c46"
+      "plugin": "aba21aa0"
     }
   },
   "/java-spring-boot-notes/docs-a49": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---java-spring-boot-notes-docs-032-026"
+    "__comp": "a7bd4aaa",
+    "__props": "03246c3f"
   },
   "/java-spring-boot-notes/docs-a3f": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+    "__comp": "a94703ab"
   },
   "/java-spring-boot-notes/docs/category/tutorial-f91": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---java-spring-boot-notes-docs-category-tutorial-077-406"
+    "__comp": "14eb3368",
+    "__props": "0774fbf5"
   },
   "/java-spring-boot-notes/docs/intro-3a9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---java-spring-boot-notes-docs-intro-0-e-3-5ea"
+    "__comp": "17896441",
+    "content": "0e384e19"
   },
   "/java-spring-boot-notes/docs/markdown-features-199": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---java-spring-boot-notes-docs-markdown-featuresbed-0bc"
+    "__comp": "17896441",
+    "content": "bed7d7c8"
   },
   "/java-spring-boot-notes/docs/reference-docs-5a4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---java-spring-boot-notes-docs-reference-docs-28-a-507"
+    "__comp": "17896441",
+    "content": "28a3cb50"
   },
   "/java-spring-boot-notes/docs/tutorial/aspect-oriented-programming-bf8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---java-spring-boot-notes-docs-tutorial-aspect-oriented-programmingac-7-23a"
+    "__comp": "17896441",
+    "content": "ac7a58dc"
   },
   "/java-spring-boot-notes/docs/tutorial/hibernate-jpa-crud-738": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---java-spring-boot-notes-docs-tutorial-hibernate-jpa-crud-2-e-4-451"
+    "__comp": "17896441",
+    "content": "2e4f295b"
   },
   "/java-spring-boot-notes/docs/tutorial/jpa-hibernate-advanced-mappings-577": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---java-spring-boot-notes-docs-tutorial-jpa-hibernate-advanced-mappings-1-ac-c9a"
+    "__comp": "17896441",
+    "content": "1ac441fd"
   },
   "/java-spring-boot-notes/docs/tutorial/rest-api-security-0cf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---java-spring-boot-notes-docs-tutorial-rest-api-security-9-e-3-691"
+    "__comp": "17896441",
+    "content": "9e37c6af"
   },
   "/java-spring-boot-notes/docs/tutorial/rest-crud-apis-9be": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---java-spring-boot-notes-docs-tutorial-rest-crud-apis-28-b-695"
+    "__comp": "17896441",
+    "content": "28b3421a"
   },
   "/java-spring-boot-notes/docs/tutorial/spring-core-d37": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---java-spring-boot-notes-docs-tutorial-spring-coref-1-b-0e9"
+    "__comp": "17896441",
+    "content": "f1bc9e47"
   },
   "/java-spring-boot-notes/docs/tutorial/spring-mvc-403": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---java-spring-boot-notes-docs-tutorial-spring-mvc-86-c-88a"
+    "__comp": "17896441",
+    "content": "86c5a471"
   },
   "/java-spring-boot-notes/docs/tutorial/spring-mvc-crud-40e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---java-spring-boot-notes-docs-tutorial-spring-mvc-crudb-73-cfe"
+    "__comp": "17896441",
+    "content": "b735fd2d"
   },
   "/java-spring-boot-notes/docs/tutorial/spring-mvc-security-a03": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---java-spring-boot-notes-docs-tutorial-spring-mvc-security-090-e6d"
+    "__comp": "17896441",
+    "content": "090ef001"
   },
   "/java-spring-boot-notes/-d41": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---java-spring-boot-notes-markdown-pagea-74-ed3"
+      "plugin": "a7456010"
     },
-    "config": "config---java-spring-boot-notes-5-e-9-314"
+    "config": "5e9f5e1a"
   }
 }
