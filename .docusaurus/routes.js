@@ -114,55 +114,91 @@ export default [
   },
   {
     path: '/java-spring-boot-notes/docs',
-    component: ComponentCreator('/java-spring-boot-notes/docs', '093'),
+    component: ComponentCreator('/java-spring-boot-notes/docs', 'df7'),
     routes: [
       {
         path: '/java-spring-boot-notes/docs',
-        component: ComponentCreator('/java-spring-boot-notes/docs', '30c'),
+        component: ComponentCreator('/java-spring-boot-notes/docs', 'a49'),
         routes: [
           {
             path: '/java-spring-boot-notes/docs',
-            component: ComponentCreator('/java-spring-boot-notes/docs', '285'),
+            component: ComponentCreator('/java-spring-boot-notes/docs', 'a3f'),
             routes: [
               {
-                path: '/java-spring-boot-notes/docs/category/tutorial---basics',
-                component: ComponentCreator('/java-spring-boot-notes/docs/category/tutorial---basics', 'db8'),
+                path: '/java-spring-boot-notes/docs/category/tutorial',
+                component: ComponentCreator('/java-spring-boot-notes/docs/category/tutorial', 'f91'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/java-spring-boot-notes/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/java-spring-boot-notes/docs/tutorial-basics/congratulations', '1b3'),
+                path: '/java-spring-boot-notes/docs/intro',
+                component: ComponentCreator('/java-spring-boot-notes/docs/intro', '3a9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/java-spring-boot-notes/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/java-spring-boot-notes/docs/tutorial-basics/create-a-blog-post', 'd1b'),
+                path: '/java-spring-boot-notes/docs/markdown-features',
+                component: ComponentCreator('/java-spring-boot-notes/docs/markdown-features', '199'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/java-spring-boot-notes/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/java-spring-boot-notes/docs/tutorial-basics/create-a-document', '92c'),
+                path: '/java-spring-boot-notes/docs/reference-docs',
+                component: ComponentCreator('/java-spring-boot-notes/docs/reference-docs', '5a4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/java-spring-boot-notes/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/java-spring-boot-notes/docs/tutorial-basics/create-a-page', 'e47'),
+                path: '/java-spring-boot-notes/docs/tutorial/aspect-oriented-programming',
+                component: ComponentCreator('/java-spring-boot-notes/docs/tutorial/aspect-oriented-programming', 'bf8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/java-spring-boot-notes/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/java-spring-boot-notes/docs/tutorial-basics/deploy-your-site', '95e'),
+                path: '/java-spring-boot-notes/docs/tutorial/hibernate-jpa-crud',
+                component: ComponentCreator('/java-spring-boot-notes/docs/tutorial/hibernate-jpa-crud', '738'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/java-spring-boot-notes/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/java-spring-boot-notes/docs/tutorial-basics/markdown-features', '287'),
+                path: '/java-spring-boot-notes/docs/tutorial/jpa-hibernate-advanced-mappings',
+                component: ComponentCreator('/java-spring-boot-notes/docs/tutorial/jpa-hibernate-advanced-mappings', '577'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/java-spring-boot-notes/docs/tutorial/rest-api-security',
+                component: ComponentCreator('/java-spring-boot-notes/docs/tutorial/rest-api-security', '0cf'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/java-spring-boot-notes/docs/tutorial/rest-crud-apis',
+                component: ComponentCreator('/java-spring-boot-notes/docs/tutorial/rest-crud-apis', '9be'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/java-spring-boot-notes/docs/tutorial/spring-core',
+                component: ComponentCreator('/java-spring-boot-notes/docs/tutorial/spring-core', 'd37'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/java-spring-boot-notes/docs/tutorial/spring-mvc',
+                component: ComponentCreator('/java-spring-boot-notes/docs/tutorial/spring-mvc', '403'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/java-spring-boot-notes/docs/tutorial/spring-mvc-crud',
+                component: ComponentCreator('/java-spring-boot-notes/docs/tutorial/spring-mvc-crud', '40e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/java-spring-boot-notes/docs/tutorial/spring-mvc-security',
+                component: ComponentCreator('/java-spring-boot-notes/docs/tutorial/spring-mvc-security', 'a03'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

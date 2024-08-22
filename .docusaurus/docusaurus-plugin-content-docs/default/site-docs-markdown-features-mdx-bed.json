@@ -1,0 +1,23 @@
+{
+  "id": "markdown-features",
+  "title": "Markdown Features",
+  "description": "Docusaurus supports Markdown and a few additional features.",
+  "source": "@site/docs/markdown-features.mdx",
+  "sourceDirName": ".",
+  "slug": "/markdown-features",
+  "permalink": "/java-spring-boot-notes/docs/markdown-features",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/kotran222/java-spring-boot-notes/docs/markdown-features.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AOP: Aspect-Oriented Programming",
+    "permalink": "/java-spring-boot-notes/docs/tutorial/aspect-oriented-programming"
+  }
+}

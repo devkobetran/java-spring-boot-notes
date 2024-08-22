@@ -1,0 +1,27 @@
+{
+  "id": "tutorial/spring-mvc-security",
+  "title": "Spring MVC Security",
+  "description": "",
+  "source": "@site/docs/tutorial/spring-mvc-security.md",
+  "sourceDirName": "tutorial",
+  "slug": "/tutorial/spring-mvc-security",
+  "permalink": "/java-spring-boot-notes/docs/tutorial/spring-mvc-security",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/kotran222/java-spring-boot-notes/docs/tutorial/spring-mvc-security.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Spring MVC CRUD",
+    "permalink": "/java-spring-boot-notes/docs/tutorial/spring-mvc-crud"
+  },
+  "next": {
+    "title": "JPA | Hibernate Advanced Mappings",
+    "permalink": "/java-spring-boot-notes/docs/tutorial/jpa-hibernate-advanced-mappings"
+  }
+}

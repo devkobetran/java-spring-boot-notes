@@ -1,0 +1,20 @@
+{
+  "id": "environment-setup",
+  "title": "environment-setup",
+  "description": "",
+  "source": "@site/docs/environment-setup.md",
+  "sourceDirName": ".",
+  "slug": "/environment-setup",
+  "permalink": "/java-spring-boot-notes/docs/environment-setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/kotran222/java-spring-boot-notes/docs/environment-setup.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Congratulations!",
+    "permalink": "/java-spring-boot-notes/docs/tutorial-basics/congratulations"
+  }
+}

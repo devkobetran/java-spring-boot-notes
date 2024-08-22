@@ -1,0 +1,27 @@
+{
+  "id": "tutorial/congratulations",
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/tutorial/congratulations.md",
+  "sourceDirName": "tutorial",
+  "slug": "/tutorial/congratulations",
+  "permalink": "/java-spring-boot-notes/docs/tutorial/congratulations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/kotran222/java-spring-boot-notes/docs/tutorial/congratulations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Spring Core",
+    "permalink": "/java-spring-boot-notes/docs/tutorial/spring-core"
+  },
+  "next": {
+    "title": "Markdown Features",
+    "permalink": "/java-spring-boot-notes/docs/markdown-features"
+  }
+}

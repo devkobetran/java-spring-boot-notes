@@ -1,0 +1,27 @@
+{
+  "id": "tutorial/markdown-features",
+  "title": "Markdown Features",
+  "description": "Docusaurus supports Markdown and a few additional features.",
+  "source": "@site/docs/tutorial/markdown-features.mdx",
+  "sourceDirName": "tutorial",
+  "slug": "/tutorial/markdown-features",
+  "permalink": "/java-spring-boot-notes/docs/tutorial/markdown-features",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/kotran222/java-spring-boot-notes/docs/tutorial/markdown-features.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "inversion-of-control",
+    "permalink": "/java-spring-boot-notes/docs/tutorial/spring-core/inversion-of-control"
+  },
+  "next": {
+    "title": "Congratulations!",
+    "permalink": "/java-spring-boot-notes/docs/tutorial/congratulations"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "tutorial/rest-crud-apis",
+  "title": "REST CRUD APIs",
+  "description": "",
+  "source": "@site/docs/tutorial/rest-crud-apis.md",
+  "sourceDirName": "tutorial",
+  "slug": "/tutorial/rest-crud-apis",
+  "permalink": "/java-spring-boot-notes/docs/tutorial/rest-crud-apis",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/kotran222/java-spring-boot-notes/docs/tutorial/rest-crud-apis.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hibernate | JPA CRUD",
+    "permalink": "/java-spring-boot-notes/docs/tutorial/hibernate-jpa-crud"
+  },
+  "next": {
+    "title": "REST API Security",
+    "permalink": "/java-spring-boot-notes/docs/tutorial/rest-api-security"
+  }
+}

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkclassic=self.webpackChunkclassic||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/java-spring-boot-notes/blog","blogTitle":"Blog","authorsListPath":"/java-spring-boot-notes/blog/authors"}')}}]);

@@ -1,0 +1,27 @@
+{
+  "id": "tutorial/spring-mvc-crud",
+  "title": "Spring MVC CRUD",
+  "description": "",
+  "source": "@site/docs/tutorial/spring-mvc-crud.md",
+  "sourceDirName": "tutorial",
+  "slug": "/tutorial/spring-mvc-crud",
+  "permalink": "/java-spring-boot-notes/docs/tutorial/spring-mvc-crud",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/kotran222/java-spring-boot-notes/docs/tutorial/spring-mvc-crud.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Spring MVC",
+    "permalink": "/java-spring-boot-notes/docs/tutorial/spring-mvc"
+  },
+  "next": {
+    "title": "Spring MVC Security",
+    "permalink": "/java-spring-boot-notes/docs/tutorial/spring-mvc-security"
+  }
+}

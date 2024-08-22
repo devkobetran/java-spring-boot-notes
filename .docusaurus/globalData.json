@@ -8,41 +8,71 @@
           "label": "Next",
           "isLast": true,
           "path": "/java-spring-boot-notes/docs",
-          "mainDocId": "tutorial-basics/create-a-page",
+          "mainDocId": "intro",
           "docs": [
             {
-              "id": "tutorial-basics/congratulations",
-              "path": "/java-spring-boot-notes/docs/tutorial-basics/congratulations",
+              "id": "intro",
+              "path": "/java-spring-boot-notes/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/java-spring-boot-notes/docs/tutorial-basics/create-a-blog-post",
+              "id": "markdown-features",
+              "path": "/java-spring-boot-notes/docs/markdown-features",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/java-spring-boot-notes/docs/tutorial-basics/create-a-document",
+              "id": "reference-docs",
+              "path": "/java-spring-boot-notes/docs/reference-docs",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/java-spring-boot-notes/docs/tutorial-basics/create-a-page",
+              "id": "tutorial/aspect-oriented-programming",
+              "path": "/java-spring-boot-notes/docs/tutorial/aspect-oriented-programming",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/java-spring-boot-notes/docs/tutorial-basics/deploy-your-site",
+              "id": "tutorial/hibernate-jpa-crud",
+              "path": "/java-spring-boot-notes/docs/tutorial/hibernate-jpa-crud",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/java-spring-boot-notes/docs/tutorial-basics/markdown-features",
+              "id": "tutorial/jpa-hibernate-advanced-mappings",
+              "path": "/java-spring-boot-notes/docs/tutorial/jpa-hibernate-advanced-mappings",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorial---basics",
-              "path": "/java-spring-boot-notes/docs/category/tutorial---basics",
+              "id": "tutorial/rest-api-security",
+              "path": "/java-spring-boot-notes/docs/tutorial/rest-api-security",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/rest-crud-apis",
+              "path": "/java-spring-boot-notes/docs/tutorial/rest-crud-apis",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/spring-core",
+              "path": "/java-spring-boot-notes/docs/tutorial/spring-core",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/spring-mvc",
+              "path": "/java-spring-boot-notes/docs/tutorial/spring-mvc",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/spring-mvc-crud",
+              "path": "/java-spring-boot-notes/docs/tutorial/spring-mvc-crud",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/spring-mvc-security",
+              "path": "/java-spring-boot-notes/docs/tutorial/spring-mvc-security",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial",
+              "path": "/java-spring-boot-notes/docs/category/tutorial",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -50,8 +80,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/java-spring-boot-notes/docs/category/tutorial---basics",
-                "label": "Tutorial - Basics"
+                "path": "/java-spring-boot-notes/docs/intro",
+                "label": "intro"
               }
             }
           }
