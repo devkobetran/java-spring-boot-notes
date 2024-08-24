@@ -11,9 +11,9 @@
   "editUrl": "https://github.com/kotran222/java-spring-boot-notes/docs/tutorial/rest-api-security.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 5,
   "frontMatter": {
-    "sidebar_position": 4
+    "sidebar_position": 5
   },
   "sidebar": "tutorialSidebar",
   "previous": {

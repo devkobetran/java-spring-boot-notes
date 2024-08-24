@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/java-spring-boot-notes/docs',
-    component: ComponentCreator('/java-spring-boot-notes/docs', 'bba'),
+    component: ComponentCreator('/java-spring-boot-notes/docs', 'b15'),
     routes: [
       {
         path: '/java-spring-boot-notes/docs',
-        component: ComponentCreator('/java-spring-boot-notes/docs', '9e4'),
+        component: ComponentCreator('/java-spring-boot-notes/docs', '91d'),
         routes: [
           {
             path: '/java-spring-boot-notes/docs',
-            component: ComponentCreator('/java-spring-boot-notes/docs', 'e70'),
+            component: ComponentCreator('/java-spring-boot-notes/docs', 'ae9'),
             routes: [
               {
                 path: '/java-spring-boot-notes/docs/category/tutorial',
@@ -169,6 +169,12 @@ export default [
               {
                 path: '/java-spring-boot-notes/docs/tutorial/rest-crud-apis',
                 component: ComponentCreator('/java-spring-boot-notes/docs/tutorial/rest-crud-apis', '9be'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/java-spring-boot-notes/docs/tutorial/spring-boot-3-intro',
+                component: ComponentCreator('/java-spring-boot-notes/docs/tutorial/spring-boot-3-intro', '2ae'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

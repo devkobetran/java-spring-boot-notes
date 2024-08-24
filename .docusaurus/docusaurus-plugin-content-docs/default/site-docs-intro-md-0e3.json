@@ -1,7 +1,7 @@
 {
   "id": "intro",
   "title": "Environment Setup",
-  "description": "",
+  "description": "IntelliJ Installation",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",

@@ -11,9 +11,9 @@
   "editUrl": "https://github.com/kotran222/java-spring-boot-notes/docs/tutorial/hibernate-jpa-crud.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
+  "sidebarPosition": 3,
   "frontMatter": {
-    "sidebar_position": 2
+    "sidebar_position": 3
   },
   "sidebar": "tutorialSidebar",
   "previous": {

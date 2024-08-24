@@ -11,9 +11,9 @@
   "editUrl": "https://github.com/kotran222/java-spring-boot-notes/docs/tutorial/jpa-hibernate-advanced-mappings.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 8,
+  "sidebarPosition": 9,
   "frontMatter": {
-    "sidebar_position": 8
+    "sidebar_position": 9
   },
   "sidebar": "tutorialSidebar",
   "previous": {

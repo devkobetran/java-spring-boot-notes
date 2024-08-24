@@ -1,0 +1,27 @@
+{
+  "id": "tutorial/spring-boot-3",
+  "title": "Spring Boot 3 Intro",
+  "description": "",
+  "source": "@site/docs/tutorial/spring-boot-3.md",
+  "sourceDirName": "tutorial",
+  "slug": "/tutorial/spring-boot-3",
+  "permalink": "/java-spring-boot-notes/docs/tutorial/spring-boot-3",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/kotran222/java-spring-boot-notes/docs/tutorial/spring-boot-3.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tutorial",
+    "permalink": "/java-spring-boot-notes/docs/category/tutorial"
+  },
+  "next": {
+    "title": "Spring Core",
+    "permalink": "/java-spring-boot-notes/docs/tutorial/spring-core"
+  }
+}

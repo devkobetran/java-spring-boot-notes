@@ -46,6 +46,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "tutorial/spring-boot-3-intro",
+              "path": "/java-spring-boot-notes/docs/tutorial/spring-boot-3-intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial/spring-core",
               "path": "/java-spring-boot-notes/docs/tutorial/spring-core",
               "sidebar": "tutorialSidebar"

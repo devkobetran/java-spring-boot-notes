@@ -249,17 +249,17 @@
     },
     "content": "content---java-spring-boot-notes-markdown-page-393-775"
   },
-  "/java-spring-boot-notes/docs-bba": {
+  "/java-spring-boot-notes/docs-b15": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---java-spring-boot-notes-docsaba-c46"
     }
   },
-  "/java-spring-boot-notes/docs-9e4": {
+  "/java-spring-boot-notes/docs-91d": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---java-spring-boot-notes-docs-032-026"
   },
-  "/java-spring-boot-notes/docs-e70": {
+  "/java-spring-boot-notes/docs-ae9": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/java-spring-boot-notes/docs/category/tutorial-f91": {
@@ -293,6 +293,10 @@
   "/java-spring-boot-notes/docs/tutorial/rest-crud-apis-9be": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---java-spring-boot-notes-docs-tutorial-rest-crud-apis-28-b-695"
+  },
+  "/java-spring-boot-notes/docs/tutorial/spring-boot-3-intro-2ae": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---java-spring-boot-notes-docs-tutorial-spring-boot-3-intro-676-185"
   },
   "/java-spring-boot-notes/docs/tutorial/spring-core-d37": {
     "__comp": "__comp---theme-doc-item-178-a40",

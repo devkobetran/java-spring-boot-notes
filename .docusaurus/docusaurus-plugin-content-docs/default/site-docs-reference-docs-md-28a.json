@@ -1,7 +1,7 @@
 {
   "id": "reference-docs",
   "title": "Reference Docs",
-  "description": "",
+  "description": "- https://start.spring.io",
   "source": "@site/docs/reference-docs.md",
   "sourceDirName": ".",
   "slug": "/reference-docs",

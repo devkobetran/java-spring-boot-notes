@@ -11,14 +11,14 @@
   "editUrl": "https://github.com/kotran222/java-spring-boot-notes/docs/tutorial/spring-core.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar_position": 1
+    "sidebar_position": 2
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Tutorial",
-    "permalink": "/java-spring-boot-notes/docs/category/tutorial"
+    "title": "Spring Boot 3 Intro",
+    "permalink": "/java-spring-boot-notes/docs/tutorial/spring-boot-3-intro"
   },
   "next": {
     "title": "Hibernate | JPA CRUD",
