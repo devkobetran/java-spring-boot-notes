@@ -16,11 +16,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "markdown-features",
-              "path": "/java-spring-boot-notes/docs/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "reference-docs",
               "path": "/java-spring-boot-notes/docs/reference-docs",
               "sidebar": "tutorialSidebar"

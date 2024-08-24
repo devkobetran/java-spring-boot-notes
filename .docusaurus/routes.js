@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/java-spring-boot-notes/docs',
-    component: ComponentCreator('/java-spring-boot-notes/docs', 'df7'),
+    component: ComponentCreator('/java-spring-boot-notes/docs', 'bba'),
     routes: [
       {
         path: '/java-spring-boot-notes/docs',
-        component: ComponentCreator('/java-spring-boot-notes/docs', 'a49'),
+        component: ComponentCreator('/java-spring-boot-notes/docs', '9e4'),
         routes: [
           {
             path: '/java-spring-boot-notes/docs',
-            component: ComponentCreator('/java-spring-boot-notes/docs', 'a3f'),
+            component: ComponentCreator('/java-spring-boot-notes/docs', 'e70'),
             routes: [
               {
                 path: '/java-spring-boot-notes/docs/category/tutorial',
@@ -133,12 +133,6 @@ export default [
               {
                 path: '/java-spring-boot-notes/docs/intro',
                 component: ComponentCreator('/java-spring-boot-notes/docs/intro', '3a9'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/java-spring-boot-notes/docs/markdown-features',
-                component: ComponentCreator('/java-spring-boot-notes/docs/markdown-features', '199'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

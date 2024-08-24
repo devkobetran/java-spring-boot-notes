@@ -19,9 +19,5 @@
   "previous": {
     "title": "JPA | Hibernate Advanced Mappings",
     "permalink": "/java-spring-boot-notes/docs/tutorial/jpa-hibernate-advanced-mappings"
-  },
-  "next": {
-    "title": "Markdown Features",
-    "permalink": "/java-spring-boot-notes/docs/markdown-features"
   }
 }
