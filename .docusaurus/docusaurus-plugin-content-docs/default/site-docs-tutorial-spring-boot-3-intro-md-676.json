@@ -1,7 +1,7 @@
 {
   "id": "tutorial/spring-boot-3-intro",
   "title": "Spring Boot 3 Intro",
-  "description": "",
+  "description": "Create a REST Controller",
   "source": "@site/docs/tutorial/spring-boot-3-intro.md",
   "sourceDirName": "tutorial",
   "slug": "/tutorial/spring-boot-3-intro",

@@ -1,7 +1,7 @@
 {
   "id": "tutorial/spring-core",
   "title": "Spring Core",
-  "description": "",
+  "description": "Inversion of Control",
   "source": "@site/docs/tutorial/spring-core.md",
   "sourceDirName": "tutorial",
   "slug": "/tutorial/spring-core",

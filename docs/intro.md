@@ -23,3 +23,7 @@ sidebar_position: 1
 
 - Remember to install latest or most stable JDKs.
   - [Download Oracle JDKs](https://www.oracle.com/java/technologies/downloads/#java21)
+
+## IntelliJ Starters
+
+- Go to **View** > **Tool Windows** > **Maven Projects** > **Dependencies**
