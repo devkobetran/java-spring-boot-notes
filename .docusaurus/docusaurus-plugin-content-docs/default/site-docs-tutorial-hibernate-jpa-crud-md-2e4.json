@@ -1,7 +1,7 @@
 {
   "id": "tutorial/hibernate-jpa-crud",
   "title": "Hibernate | JPA CRUD",
-  "description": "",
+  "description": "Hibernate",
   "source": "@site/docs/tutorial/hibernate-jpa-crud.md",
   "sourceDirName": "tutorial",
   "slug": "/tutorial/hibernate-jpa-crud",
