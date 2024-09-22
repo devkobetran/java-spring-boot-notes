@@ -1,7 +1,7 @@
 {
   "id": "tutorial/rest-crud-apis",
   "title": "REST CRUD APIs",
-  "description": "",
+  "description": "REST API",
   "source": "@site/docs/tutorial/rest-crud-apis.md",
   "sourceDirName": "tutorial",
   "slug": "/tutorial/rest-crud-apis",

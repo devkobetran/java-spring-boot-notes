@@ -1,2 +1,20 @@
 # dependencies
-/node_modules
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.iml
+*.code-workspace
+.changelog
+.history
+
+node_modules
+package-lock.json
+
+.eslintcache
+
+build
+coverage
+.docusaurus
+.cache-loader
+types

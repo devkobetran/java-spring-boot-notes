@@ -34,12 +34,18 @@ sidebar_position: 1
 - [Install MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 
 - Add dependencies to Java Spring application:
+
   - **MySQL Driver**: `mysql-connector-j`
   - **Spring Data JPA**: `spring-boot-starter-data-jpa`
   - DB connection info from **application.properties** file
   - e.g. **application.properties** file:s
+
   ```
   spring.datasource.url=jdbc:mysql://localhost:3306/student_tracker
   spring.datasource.username=springstudent
   spring.datasource.password=springstudent
   ```
+
+## Postman Installation
+
+[Install Postman](https://www.postman.com/downloads/)

@@ -1,7 +1,7 @@
 {
   "id": "tutorial/spring-mvc",
   "title": "Spring MVC",
-  "description": "Spring Boot - Spring MVC Form Data Binding - Text Fields",
+  "description": "Thymeleaf",
   "source": "@site/docs/tutorial/spring-mvc.md",
   "sourceDirName": "tutorial",
   "slug": "/tutorial/spring-mvc",
