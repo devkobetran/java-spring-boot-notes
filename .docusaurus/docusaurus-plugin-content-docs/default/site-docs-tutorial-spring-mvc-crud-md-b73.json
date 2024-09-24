@@ -1,7 +1,7 @@
 {
   "id": "tutorial/spring-mvc-crud",
   "title": "Spring MVC CRUD",
-  "description": "",
+  "description": "- Example: Create a Web UI for the Employee Directory",
   "source": "@site/docs/tutorial/spring-mvc-crud.md",
   "sourceDirName": "tutorial",
   "slug": "/tutorial/spring-mvc-crud",
