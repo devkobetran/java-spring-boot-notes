@@ -1,7 +1,7 @@
 {
   "id": "tutorial/spring-mvc-security",
   "title": "Spring MVC Security",
-  "description": "",
+  "description": "- spring-security-reference-manual",
   "source": "@site/docs/tutorial/spring-mvc-security.md",
   "sourceDirName": "tutorial",
   "slug": "/tutorial/spring-mvc-security",

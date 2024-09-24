@@ -1,7 +1,7 @@
 {
   "id": "tutorial/rest-api-security",
   "title": "REST API Security",
-  "description": "",
+  "description": "- Spring Security Tutorial",
   "source": "@site/docs/tutorial/rest-api-security.md",
   "sourceDirName": "tutorial",
   "slug": "/tutorial/rest-api-security",
