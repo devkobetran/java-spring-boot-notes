@@ -1,7 +1,7 @@
 {
   "id": "tutorial/jpa-hibernate-advanced-mappings",
   "title": "JPA | Hibernate Advanced Mappings",
-  "description": "",
+  "description": "- Advanced Mappings:",
   "source": "@site/docs/tutorial/jpa-hibernate-advanced-mappings.md",
   "sourceDirName": "tutorial",
   "slug": "/tutorial/jpa-hibernate-advanced-mappings",
