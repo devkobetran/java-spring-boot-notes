@@ -1,7 +1,7 @@
 {
   "id": "tutorial/aspect-oriented-programming",
   "title": "AOP: Aspect-Oriented Programming",
-  "description": "",
+  "description": "DAO - Add Logging Code and Security Code",
   "source": "@site/docs/tutorial/aspect-oriented-programming.md",
   "sourceDirName": "tutorial",
   "slug": "/tutorial/aspect-oriented-programming",
