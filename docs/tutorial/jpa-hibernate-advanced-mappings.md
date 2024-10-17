@@ -4,6 +4,8 @@ sidebar_position: 9
 
 # JPA | Hibernate Advanced Mappings
 
+## Advanced Mappings
+
 - Advanced Mappings:
 
   - One-to-One
@@ -83,12 +85,24 @@ sidebar_position: 9
 **create-db.sql**
 
 ```
+DROP SCHEMA IF EXISTS `hb-01-one-to-one-uni`;
+
+CREATE SCHEMA `hb-01-one-to-one-uni`;
+
+use `hb-01-one-to-one-uni`;
+
+SET FOREIGN_KEY_CHECKS = 0;
+
+DROP TABLE IF EXISTS `instuctor_detail`;
+
 CREATE TABLE `instructor_detail` (
     `id` int(11) NOT NULL AUTO_INCREMENT,
     `youtube_channel` varchar(128) DEFAULT NULL,
     `hobby` varchar(45) DEFAULT NULL,
     PRIMARY KEY (`id`)
-);
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `instuctor`;
 
 CREATE TABLE `instructor` (
     `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -96,19 +110,50 @@ CREATE TABLE `instructor` (
     `last_name` varchar(45) DEFAULT NULL,
     `email` varchar(45) DEFAULT NULL,
     `instructor_detail_id` int(11) DEFAULT NULL,
-    PRIMARY KEY (`id`)
+    PRIMARY KEY (`id`),
+    KEY `FK_DETAIL_idx` (`instructor_detail_id`),
     CONSTRAINT `FK_DETAIL` FOREIGN KEY (`instructor_detail_id`)
     REFERENCES `instructor_detail` (`id`)
-);
+    ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 ...
 ```
 
+:::note
+
+```
+KEY `FK_DETAIL_idx` (`instructor_detail_id`),
+CONSTRAINT `FK_DETAIL` FOREIGN KEY (`instructor_detail_id`)
+REFERENCES `instructor_detail` (`id`)
+ON DELETE NO ACTION ON UPDATE NO ACTION
+```
+
+- This part is the setup of the foreign key
+
+  ```
+  CONSTRAINT `FK_DETAIL` FOREIGN KEY (`instructor_detail_id`)
+  REFERENCES `instructor_detail` (`id`)
+  ```
+
+  - will reference the instructor_detail table in the id column.
+  - the instructor_detail_id column in the instructor table will be the foreign key that maps to the id column in instructor_detail table
+
+:::
+
 2. Create InstructorDetail class
 
+**InstructorDetail.java**
+
 ```js
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+// annotate the class as an entity and map to db table
 @Entity
 @Table(name="instructor_detail")
 public class InstructorDetail {
+
+    //annotate the fields with db column names
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     @Column(name="id")
@@ -121,12 +166,20 @@ public class InstructorDetail {
     private String hobby;
 
     // constructors
+    public InstructorDetail(String youtubeChannel, String hobby){
+        this.youtubeChannel = youtubeChannel;
+        this.hobby = hobby;
+    }
+
+    ...
 
     // getters / setters
 }
 ```
 
 3. Create Instructor class
+
+**Instructor.java**
 
 ```js
 @Entity
@@ -146,16 +199,103 @@ public class Instructor {
     @Column(name="email")
     private String email;
 
+    // instructor_detail_id is defined in instructor table
+    // In database, foreign key is configured to reference id field in instructor_detail table
     @OneToOne
     @JoinColumn(name="instructor_detail_id")
     private InstructorDetail instructorDetail;
 
+    // constructors
+    public Instructor(String firstName, String lastName, String email){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+    }
+
     ...
-    // constructors, getters / setters
+    // getters / setters
 }
 ```
 
-4. Create Main App
+4. Create DAO interface
+
+**AppDAO.java**:
+
+```js
+public interface AppDAO {
+    void save(Instructor theInstructor);
+}
+```
+
+5. Create DAO impl
+
+**AppDAOImpl.java**:
+
+```js
+@Repository
+public class AppDAOImpl implements AppDAO {
+    //define field for entity manager
+    private EntityManager entityManager;
+
+    //inject entity manager using constructor injection
+    @Autowired
+    public AppDAOImpl(EntityManager entityManager){
+        this.entityManager = entityManager;
+    }
+
+    //@Transactional is needed since we are persisting the entity (saving an object to the database)
+    @Override
+    @Transactional
+    public void save(Instructor theInstructor){
+        //This will also save the details object due to CascadeType.ALL
+        entityManager.persist(theInstructor);
+    }
+}
+```
+
+6. Create Main App
+
+**CruddemoApplication.java**
+
+```js
+@SpringBootApplication
+public class CruddemoApplication{
+    public static void main(String[] args){
+        StringApplication
+    }
+
+    @Bean
+    public CommandLineRunner commandLineRunner(AppDAO appDAO){
+        return runner -> {
+            createInstructor(appDAO);
+        }
+    }
+
+    private void createInstructor(AppDAO appDAO){
+        //create the instructor
+        Instructor tempInstructor = new Instructor("Chad", "Darby", "darby@luv2code.com");
+
+        //create the instructor detail
+        InstructorDetail tempInstructorDetail = new InstructorDetail("http://www.luv2code.com/youtube", "Luv 2 code");
+
+        //associate the objects
+        tempInstructor.setInstructorDetail(tempInstructorDetail);
+
+        //save the instructor
+        // Note: this will also save the details object
+        // due to CascadeType.ALL
+        appDAO.save(tempInstructor);
+    }
+}
+```
+
+7. enable logging in **application.properties**:
+
+```
+# Show JPA/Hibernate logging messages
+logging.level.org.hibernate.SQL=trace
+logging.level.org.hibernate.orm.jdbc.bind=trace
+```
 
 ### Entity Lifecycle
 
@@ -218,7 +358,9 @@ public class Instructor {
 
 ## One-to-One: Find an entity
 
-- Define DAO implementation
+1. Define DAO implementation
+
+**AppDAOimpl.java**
 
 ```js
 @Repository
@@ -228,15 +370,46 @@ public class AppDAOImpl implements AppDAO {
     public Instructor findInstructorById(int theId) {
         // This will also retrieve the instructor details object
         // because of default behavior of @OnetoOne
-        // fetch type is eager ... more on fetch types later
+        // fetch type is eager
         return entityManager.find(Instructor.class, theId);
     }
 }
 ```
 
+2. Create Main App
+
+**CruddemoApplication.java**
+
+```js
+@SpringBootApplication
+public class CruddemoApplication{
+    public static void main(String[] args){
+        StringApplication
+    }
+
+    @Bean
+    public CommandLineRunner commandLineRunner(AppDAO appDAO){
+        return runner -> {
+            ...
+
+            findInstructor(appDAO);
+        }
+    }
+
+    private void findInstructor(AppDAO appDAO){
+        int theId = 1;
+        System.out.println("Finding instructor id: " + theId);
+
+        Instructor tempInstructor = appDAO.findInstructorById(theId);
+    }
+
+    ...
+}
+```
+
 ## One-to-One: Delete an entity
 
-Define DAO implementation
+1. Define DAO implementation
 
 ```js
 @Repository
@@ -252,6 +425,37 @@ public class AppDAOImpl implements AppDAO {
         // due to CascadeType.ALL
         entityManager.remove(tempInstructor);
     }
+}
+```
+
+2. Create Main App
+
+**CruddemoApplication.java**
+
+```js
+@SpringBootApplication
+public class CruddemoApplication{
+    public static void main(String[] args){
+        StringApplication
+    }
+
+    @Bean
+    public CommandLineRunner commandLineRunner(AppDAO appDAO){
+        return runner -> {
+            ...
+
+            deleteInstructor(appDAO);
+        }
+    }
+
+    private void deleteInstructor(AppDAO appDAO){
+        int theId = 1;
+        System.out.println("Finding instructor id: " + theId);
+
+        Instructor tempInstructor = appDAO.deleteInstructorById(theId);
+    }
+
+    ...
 }
 ```
 
@@ -271,6 +475,7 @@ public class AppDAOImpl implements AppDAO {
 @Table(name="instructor_detail")
 public class InstructorDetail {
     ...
+    //refers to "instructorDetail" property in "Instructor" class
     @OneToOne(mappedBy="instructorDetail", cascade=CascadeType.ALL)
     private Instructor instructor;
 
@@ -298,17 +503,19 @@ public class InstructorDetail {
 
 :::
 
-- Define DAO Interface
+2. Define DAO Interface
 
 ```js
 import com.luv2code.cruddemo.entity.Instructor;
 
 public interface AppDAO {
+    ...
+
     InstructorDetail findInstructorDetailById(int theId);
 }
 ```
 
-- Define DAO implementation
+3. Define DAO implementation
 
 ```js
 import com.luv2code.cruddemo.entity.InstructorDetail;
@@ -330,7 +537,7 @@ public class AppDAOImpl implements AppDAO {
 }
 ```
 
-2. Create Main App
+4. Create Main App
 
 ```js
 @SpringBootApplication
@@ -342,8 +549,164 @@ public class MainApplication {
     @Bean
     public CommandLineRunner commandLineRunner(AppDAO appDAO) {
         return runner -> {
+            ...
+
             findInstructorDetail(appDAO);
         }
+    }
+
+    private void findInstructorDetail(AppDAO appDAO){
+        int theId = 1;
+        System.out.println("Finding instructor id: " + theId);
+
+        InstructorDetail tempInstructorDetail = appDAO.findInstructorDetailById(theId);
+    }
+...
+}
+```
+
+### Cascade Delete
+
+1. Define DAO Interface
+
+```js
+public interface AppDAO {
+    ...
+
+    void deleteInstructorDetailById(int theId);
+}
+```
+
+2. Define DAO implementation
+
+```js
+import com.luv2code.cruddemo.entity.InstructorDetail;
+...
+@Repository
+public class AppDAOImpl implements AppDAO {
+    // define field for entity manager
+    private EntityManager entityManager;
+    // inject entity manager using constructor injection
+    ...
+
+    @Override
+    @Transactional
+    public void deleteInstructorDetailById(int theId) {
+        //retrieve instructor detail
+        InstructorDetail tempInstructorDetail = entityManager.find(InstructorDetail.class, theId);
+
+        //delete the instructor detail
+        entityManager.remove(tempInstructorDetail);
+    }
+}
+```
+
+3. Update Main App
+
+```js
+@SpringBootApplication
+public class MainApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(MainApplication.class, args);
+    }
+    @Bean
+    public CommandLineRunner commandLineRunner(AppDAO appDAO) {
+        return runner -> {
+            ...
+
+            deleteInstructorDetail(appDAO);
+        }
+    }
+
+    private void deleteInstructorDetail(AppDAO appDAO){
+        int theId = 1;
+        System.out.println("Deleting instructor detail id: " + theId);
+
+        appDAO.deleteInstructorDetailById(theId);
+    }
+...
+}
+```
+
+### Only Delete Instructor Details
+
+1.
+
+1. Make updates to `InstructorDetail` class:
+   - Update the casecade type to everything except for remove
+
+```js
+@Entity
+@Table(name="instructor_detail")
+public class InstructorDetail {
+    ...
+    //refers to "instructorDetail" property in "Instructor" class
+    @OneToOne(mappedBy="instructorDetail", cascade={CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
+    private Instructor instructor;
+
+    public Instructor getInstructor() {
+        return instructor;
+    }
+
+    public void setInstructor(Instructor instructor) {
+        this.instructor = instructor;
+    }
+    ...
+}
+```
+
+2. Update DAO implementation
+
+```js
+import com.luv2code.cruddemo.entity.InstructorDetail;
+...
+@Repository
+public class AppDAOImpl implements AppDAO {
+    // define field for entity manager
+    private EntityManager entityManager;
+    // inject entity manager using constructor injection
+    ...
+
+    @Override
+    @Transactional
+    public void deleteInstructorDetailById(int theId) {
+        //retrieve instructor detail
+        InstructorDetail tempInstructorDetail = entityManager.find(InstructorDetail.class, theId);
+
+        // remove the associated object reference
+        // break bi-directional link
+        tempInstructorDetail.getInstructor().setInstructorDetail(null);
+
+        //delete the instructor detail
+        entityManager.remove(tempInstructorDetail);
+    }
+}
+```
+
+3. Update Main App
+
+```js
+@SpringBootApplication
+public class MainApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(MainApplication.class, args);
+    }
+    @Bean
+    public CommandLineRunner commandLineRunner(AppDAO appDAO) {
+        return runner -> {
+            ...
+
+            deleteInstructorDetail(appDAO);
+        }
+    }
+
+    private void deleteInstructorDetail(AppDAO appDAO){
+        int theId = 1;
+        System.out.println("Deleting instructor detail id: " + theId);
+
+        appDAO.deleteInstructorDetailById(theId);
     }
 ...
 }
