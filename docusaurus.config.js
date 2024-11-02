@@ -20,7 +20,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "kotran222", // Usually your GitHub org/user name.
+  organizationName: "devkobetran", // Usually your GitHub org/user name.
   projectName: "java-spring-boot-notes", // Usually your repo name.
 
   onBrokenLinks: "throw",
@@ -48,7 +48,7 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/kotran222/java-spring-boot-notes",
+          editUrl: "https://github.com/devkobetran/java-spring-boot-notes",
         },
         blog: {
           showReadingTime: true,
@@ -58,7 +58,7 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/kotran222/java-spring-boot-notes",
+          editUrl: "https://github.com/devkobetran/java-spring-boot-notes",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -91,7 +91,7 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/kotran222/java-spring-boot-notes",
+            href: "https://github.com/devkobetran/java-spring-boot-notes",
             label: "GitHub",
             position: "right",
           },
@@ -118,7 +118,7 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/kotran222/java-spring-boot-notes",
+                href: "https://github.com/devkobetran/java-spring-boot-notes",
               },
             ],
           },
