@@ -8,7 +8,7 @@
   "permalink": "/java-spring-boot-notes/docs/tutorial/aspect-oriented-programming",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/kotran222/java-spring-boot-notes/docs/tutorial/aspect-oriented-programming.md",
+  "editUrl": "https://github.com/devkobetran/java-spring-boot-notes/docs/tutorial/aspect-oriented-programming.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 10,
@@ -19,5 +19,9 @@
   "previous": {
     "title": "JPA | Hibernate Advanced Mappings",
     "permalink": "/java-spring-boot-notes/docs/tutorial/jpa-hibernate-advanced-mappings"
+  },
+  "next": {
+    "title": "Unit Testing",
+    "permalink": "/java-spring-boot-notes/docs/category/unit-testing"
   }
 }

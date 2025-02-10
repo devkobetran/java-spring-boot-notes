@@ -114,19 +114,25 @@ export default [
   },
   {
     path: '/java-spring-boot-notes/docs',
-    component: ComponentCreator('/java-spring-boot-notes/docs', 'b15'),
+    component: ComponentCreator('/java-spring-boot-notes/docs', 'aef'),
     routes: [
       {
         path: '/java-spring-boot-notes/docs',
-        component: ComponentCreator('/java-spring-boot-notes/docs', '91d'),
+        component: ComponentCreator('/java-spring-boot-notes/docs', 'e89'),
         routes: [
           {
             path: '/java-spring-boot-notes/docs',
-            component: ComponentCreator('/java-spring-boot-notes/docs', 'ae9'),
+            component: ComponentCreator('/java-spring-boot-notes/docs', 'dd8'),
             routes: [
               {
                 path: '/java-spring-boot-notes/docs/category/tutorial',
                 component: ComponentCreator('/java-spring-boot-notes/docs/category/tutorial', 'f91'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/java-spring-boot-notes/docs/category/unit-testing',
+                component: ComponentCreator('/java-spring-boot-notes/docs/category/unit-testing', '945'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -199,6 +205,12 @@ export default [
               {
                 path: '/java-spring-boot-notes/docs/tutorial/spring-mvc-security',
                 component: ComponentCreator('/java-spring-boot-notes/docs/tutorial/spring-mvc-security', 'a03'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/java-spring-boot-notes/docs/unit-testing/introduction',
+                component: ComponentCreator('/java-spring-boot-notes/docs/unit-testing/introduction', 'c00'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

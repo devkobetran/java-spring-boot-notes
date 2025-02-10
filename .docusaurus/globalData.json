@@ -71,8 +71,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "unit-testing/introduction",
+              "path": "/java-spring-boot-notes/docs/unit-testing/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/tutorial",
               "path": "/java-spring-boot-notes/docs/category/tutorial",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/unit-testing",
+              "path": "/java-spring-boot-notes/docs/category/unit-testing",
               "sidebar": "tutorialSidebar"
             }
           ],
