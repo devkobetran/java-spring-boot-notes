@@ -7,9 +7,9 @@ export default {
   "title": "Kobe Tran | Java Spring Boot Notes",
   "tagline": "Java Spring Boot Docs",
   "favicon": "img/favicon.ico",
-  "url": "https://kotran222.github.io",
+  "url": "https://devkobetran.github.io",
   "baseUrl": "/java-spring-boot-notes/",
-  "organizationName": "kotran222",
+  "organizationName": "devkobetran",
   "projectName": "java-spring-boot-notes",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
@@ -42,7 +42,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/kotran222/java-spring-boot-notes"
+          "editUrl": "https://github.com/devkobetran/java-spring-boot-notes"
         },
         "blog": {
           "showReadingTime": true,
@@ -53,7 +53,7 @@ export default {
             ],
             "xslt": true
           },
-          "editUrl": "https://github.com/kotran222/java-spring-boot-notes",
+          "editUrl": "https://github.com/devkobetran/java-spring-boot-notes",
           "onInlineTags": "warn",
           "onInlineAuthors": "warn",
           "onUntruncatedBlogPosts": "warn"
@@ -85,7 +85,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/kotran222/java-spring-boot-notes",
+          "href": "https://github.com/devkobetran/java-spring-boot-notes",
           "label": "GitHub",
           "position": "right"
         }
@@ -113,12 +113,12 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/kotran222/java-spring-boot-notes"
+              "href": "https://github.com/devkobetran/java-spring-boot-notes"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2024 Kobe Tran Java Spring Boot Notes, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2025 Kobe Tran Java Spring Boot Notes, Inc. Built with Docusaurus."
     },
     "prism": {
       "theme": {
