@@ -249,17 +249,17 @@
     },
     "content": "content---java-spring-boot-notes-markdown-page-393-775"
   },
-  "/java-spring-boot-notes/docs-aef": {
+  "/java-spring-boot-notes/docs-d2e": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---java-spring-boot-notes-docsaba-c46"
     }
   },
-  "/java-spring-boot-notes/docs-e89": {
+  "/java-spring-boot-notes/docs-835": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---java-spring-boot-notes-docs-032-026"
   },
-  "/java-spring-boot-notes/docs-dd8": {
+  "/java-spring-boot-notes/docs-168": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/java-spring-boot-notes/docs/category/tutorial-f91": {
@@ -321,6 +321,10 @@
   "/java-spring-boot-notes/docs/unit-testing/introduction-c00": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---java-spring-boot-notes-docs-unit-testing-introductionafd-8e1"
+  },
+  "/java-spring-boot-notes/docs/unit-testing/mocking-with-mockito-ed6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---java-spring-boot-notes-docs-unit-testing-mocking-with-mockitob-97-a8f"
   },
   "/java-spring-boot-notes/-d41": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
