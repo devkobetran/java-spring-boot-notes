@@ -76,6 +76,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "unit-testing/mocking-with-mockito",
+              "path": "/java-spring-boot-notes/docs/unit-testing/mocking-with-mockito",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/tutorial",
               "path": "/java-spring-boot-notes/docs/category/tutorial",
               "sidebar": "tutorialSidebar"

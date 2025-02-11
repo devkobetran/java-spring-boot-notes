@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/java-spring-boot-notes/docs',
-    component: ComponentCreator('/java-spring-boot-notes/docs', 'aef'),
+    component: ComponentCreator('/java-spring-boot-notes/docs', 'd2e'),
     routes: [
       {
         path: '/java-spring-boot-notes/docs',
-        component: ComponentCreator('/java-spring-boot-notes/docs', 'e89'),
+        component: ComponentCreator('/java-spring-boot-notes/docs', '835'),
         routes: [
           {
             path: '/java-spring-boot-notes/docs',
-            component: ComponentCreator('/java-spring-boot-notes/docs', 'dd8'),
+            component: ComponentCreator('/java-spring-boot-notes/docs', '168'),
             routes: [
               {
                 path: '/java-spring-boot-notes/docs/category/tutorial',
@@ -211,6 +211,12 @@ export default [
               {
                 path: '/java-spring-boot-notes/docs/unit-testing/introduction',
                 component: ComponentCreator('/java-spring-boot-notes/docs/unit-testing/introduction', 'c00'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/java-spring-boot-notes/docs/unit-testing/mocking-with-mockito',
+                component: ComponentCreator('/java-spring-boot-notes/docs/unit-testing/mocking-with-mockito', 'ed6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
